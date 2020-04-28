@@ -1,5 +1,4 @@
 # 이미지 데이터를 회전, 반전을 해서 데이터량 추가하기
-# 
 from PIL import Image
 import numpy as np
 import os, glob

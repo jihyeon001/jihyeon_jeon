@@ -48,8 +48,8 @@ params = urllib.parse.urlencode({
      "q": ret
 })
 
-# 네이버 맞춤법 검사기 사용
-data = urllib.request.urlopen("https://m.search.naver.com/p/csearch/dcontent/spellchecker.nhn?"+)
+# 맞춤법 검사기 사용
+data = urllib.request.urlopen("맞춤법 검사기 URL"+)
 data = data.read().decode("utf-8")[1:-2]
 data = json.loads(data)
 data = data["message"]["result"]["html"]
